@@ -1,0 +1,52 @@
+
+.ui.borderless.topmenu.menu {
+  background-color: black;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0px;
+}
+.ui.borderless.bottommenu.menu {
+  background-color: black;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.npslogo {
+  background-image: url('https://www.nps.gov/common/commonspot/templates/assetsCT/images/branding/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: left;
+  height: 35px;
+  width: 30px;
+
+}
+
+.volcanobanner {
+  background-image: url('https://www.nps.gov/common/uploads/banner_image/pwr/homepage/917381A9-1DD8-B71B-0B5B172EB6C9EA85.jpg?width=2400&height=700&mode=crop&quality=90');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*display: inline-block;*/
+  float: left;
+  width: 100%;
+  min-width:720px;
+  height: 350px;
+  min-height:300px;
+  position: relative;
+}
+.volcanotext{
+  font-size:35px;
+  color: white;
+}
+.overlaytext{
+  color: white;
+}
+.outside{
+  position: relative;
+}
+.ui.two.column.center.grid.container{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+}
